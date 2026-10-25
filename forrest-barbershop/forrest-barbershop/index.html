@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forrest Gump Barbershop — мужские стрижки и борода</title>
+  <meta name="description" content="Демо-сайт барбершопа Forrest Gump Barbershop: стрижки, борода, уход. Запись онлайн.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;700;900&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Перейти к содержимому</a>
+
+<header class="header" id="top">
+  <div class="wrap header__in">
+    <a href="#top" class="logo" aria-label="Forrest Gump Barbershop">
+      <span class="logo__mark">FG</span>
+      <span class="logo__text">Forrest Gump<small>Barbershop</small></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Основное меню">
+      <a href="#about">О нас</a>
+      <a href="#services">Услуги</a>
+      <a href="#masters">Мастера</a>
+      <a href="#gallery">Работы</a>
+      <a href="#prices">Цены</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a href="#booking" class="btn btn--sm header__cta">Записаться</a>
+    <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero__in">
+    <div class="bench" aria-hidden="false">
+      <h1 class="bench__title">
+        <span class="slat">Присаживайтесь.</span>
+        <span class="slat">Жизнь — как коробка</span>
+        <span class="slat slat--accent">хорошей стрижки.</span>
+      </h1>
+      <div class="bench__legs" aria-hidden="true"><i></i><i></i></div>
+    </div>
+    <div class="hero__side">
+      <p class="hero__lead">
+        Барбершоп, где никто не торопится: тёплый приём, точная работа машинкой и бритвой,
+        чай и разговоры на лавочке в ожидании своей очереди.
+      </p>
+      <div class="hero__actions">
+        <a href="#booking" class="btn">Записаться на стрижку</a>
+        <a href="#prices" class="btn btn--ghost">Смотреть цены</a>
+      </div>
+      <ul class="hero__facts">
+        <li><b>10:00–21:00</b> ежедневно</li>
+        <li><b>от 600 сом</b> классическая стрижка</li>
+        <li><b>3 мастера</b> по записи и без</li>
+      </ul>
+    </div>
+  </div>
+  <div class="track" aria-hidden="true">
+    <div class="track__line">
+      <span>Стрижка</span><span>Борода</span><span>Бритьё</span><span>Уход</span><span>Укладка</span>
+      <span>Стрижка</span><span>Борода</span><span>Бритьё</span><span>Уход</span><span>Укладка</span>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="wrap about">
+    <div class="about__text">
+      <h2>Про нас простыми словами</h2>
+      <p>
+        Мы назвали барбершоп в честь героя, который любил простые вещи и всегда шёл до конца.
+        Здесь так же: без лишних слов и показухи, зато с вниманием к каждой детали.
+      </p>
+      <p>
+        Мастер сначала выслушает, что вам нужно, предложит форму под ваш тип волос и лицо,
+        и только потом возьмётся за инструмент. Мы не делаем «конвейер» —
+        на каждого клиента закладываем столько времени, сколько нужно.
+      </p>
+      <p class="note">Это демо-страница: тексты, цены и адрес — примерные и заменяются данными заведения.</p>
+    </div>
+    <dl class="about__stats">
+      <div><dt>Лет работы</dt><dd data-count="5">0</dd></div>
+      <div><dt>Клиентов в месяц</dt><dd data-count="420">0</dd></div>
+      <div><dt>Оценка гостей</dt><dd data-count="49" data-div="10">0</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- SERVICES: коробка конфет -->
+<section class="section section--dark" id="services">
+  <div class="wrap">
+    <div class="section__head">
+      <h2>Коробка услуг</h2>
+      <p>Никогда не знаешь, что тебе достанется — но у нас точно знаешь: будет хорошо. Выберите свою «конфету».</p>
+    </div>
+    <div class="box" role="list">
+      <article class="choc" role="listitem" tabindex="0">
+        <h3>Классическая стрижка</h3>
+        <p>Машинка и ножницы, мытьё головы, укладка. Подойдёт на каждый день.</p>
+        <span class="choc__price">600 сом</span>
+      </article>
+      <article class="choc" role="listitem" tabindex="0">
+        <h3>Fade и андеркат</h3>
+        <p>Плавные переходы, чёткие линии, аккуратный контур бритвой.</p>
+        <span class="choc__price">800 сом</span>
+      </article>
+      <article class="choc" role="listitem" tabindex="0">
+        <h3>Борода</h3>
+        <p>Форма, длина, контур. Масло для бороды и горячее полотенце.</p>
+        <span class="choc__price">500 сом</span>
+      </article>
+      <article class="choc" role="listitem" tabindex="0">
+        <h3>Опасное бритьё</h3>
+        <p>Горячая пена, правка бритвой, успокаивающий уход после бритья.</p>
+        <span class="choc__price">700 сом</span>
+      </article>
+      <article class="choc" role="listitem" tabindex="0">
+        <h3>Отец и сын</h3>
+        <p>Две стрижки в одно время. Ребёнку до 12 лет — аккуратно и без слёз.</p>
+        <span class="choc__price">1 100 сом</span>
+      </article>
+      <article class="choc choc--star" role="listitem" tabindex="0">
+        <h3>Комплекс «Форрест»</h3>
+        <p>Стрижка, борода, бритьё и укладка. Всё сразу, с чаем в подарок.</p>
+        <span class="choc__price">1 500 сом</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- MASTERS -->
+<section class="section" id="masters">
+  <div class="wrap">
+    <div class="section__head">
+      <h2>Мастера</h2>
+      <p>Каждый специализируется на своём, поэтому вы получаете не просто стрижку, а результат.</p>
+    </div>
+    <div class="masters">
+      <article class="master">
+        <div class="master__photo" style="--h: 28">А</div>
+        <h3>Азамат</h3>
+        <p class="master__role">Старший барбер</p>
+        <p>Fade, текстурные стрижки, работа с кудрявыми волосами. Опыт — 7 лет.</p>
+      </article>
+      <article class="master">
+        <div class="master__photo" style="--h: 95">Т</div>
+        <h3>Тимур</h3>
+        <p class="master__role">Барбер по бороде</p>
+        <p>Борода любой длины, классическое бритьё бритвой, уходовые процедуры.</p>
+      </article>
+      <article class="master">
+        <div class="master__photo" style="--h: 160">Н</div>
+        <h3>Нурлан</h3>
+        <p class="master__role">Барбер</p>
+        <p>Классика и деловой стиль, детские стрижки, стрижки для пап и сыновей.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section section--sand" id="gallery">
+  <div class="wrap">
+    <div class="section__head">
+      <h2>Наши работы</h2>
+      <p>Здесь будут фото из Instagram. Пока — цветные заглушки.</p>
+    </div>
+    <div class="gallery" id="gallery-grid">
+      <button class="shot shot--tall" data-title="Fade с контуром">Fade с контуром</button>
+      <button class="shot" data-title="Классика">Классика</button>
+      <button class="shot" data-title="Борода и усы">Борода и усы</button>
+      <button class="shot shot--wide" data-title="Текстурная стрижка">Текстурная стрижка</button>
+      <button class="shot" data-title="Опасное бритьё">Опасное бритьё</button>
+      <button class="shot shot--tall" data-title="Андеркат">Андеркат</button>
+      <button class="shot" data-title="Отец и сын">Отец и сын</button>
+      <button class="shot" data-title="Укладка">Укладка</button>
+    </div>
+    <p class="gallery__more">
+      Больше работ — в нашем
+      <a href="https://www.instagram.com/forrest_gump_barbershop" target="_blank" rel="noopener">Instagram</a>.
+    </p>
+  </div>
+</section>
+
+<!-- PRICES -->
+<section class="section" id="prices">
+  <div class="wrap prices">
+    <div class="section__head">
+      <h2>Цены</h2>
+      <p>Всё прозрачно: цена называется до начала работы и не меняется.</p>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Категории цен">
+      <button class="tab is-active" role="tab" aria-selected="true" data-tab="hair">Волосы</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="beard">Борода</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="combo">Комплексы</button>
+    </div>
+    <div class="tabpane is-active" id="pane-hair" role="tabpanel">
+      <table class="ptable">
+        <tr><td>Классическая стрижка</td><td>600 сом</td></tr>
+        <tr><td>Fade / андеркат</td><td>800 сом</td></tr>
+        <tr><td>Стрижка машинкой под одну насадку</td><td>400 сом</td></tr>
+        <tr><td>Детская стрижка (до 12 лет)</td><td>500 сом</td></tr>
+        <tr><td>Укладка</td><td>200 сом</td></tr>
+      </table>
+    </div>
+    <div class="tabpane" id="pane-beard" role="tabpanel">
+      <table class="ptable">
+        <tr><td>Оформление бороды</td><td>500 сом</td></tr>
+        <tr><td>Оформление усов</td><td>250 сом</td></tr>
+        <tr><td>Опасное бритьё головы</td><td>700 сом</td></tr>
+        <tr><td>Горячее полотенце и уход</td><td>200 сом</td></tr>
+      </table>
+    </div>
+    <div class="tabpane" id="pane-combo" role="tabpanel">
+      <table class="ptable">
+        <tr><td>Стрижка + борода</td><td>1 100 сом</td></tr>
+        <tr><td>Отец и сын</td><td>1 100 сом</td></tr>
+        <tr><td>Комплекс «Форрест» (всё сразу)</td><td>1 500 сом</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="section section--dark" id="reviews">
+  <div class="wrap">
+    <div class="section__head">
+      <h2>Что говорят гости</h2>
+    </div>
+    <div class="reviews">
+      <figure class="review is-active">
+        <blockquote>Пришёл на обычную стрижку, ушёл с настроением. Сделали ровно то, что просил, без лишних уговоров.</blockquote>
+        <figcaption>Эрлан, постоянный клиент</figcaption>
+      </figure>
+      <figure class="review">
+        <blockquote>Водил сына в первый раз. Нурлан нашёл подход, ребёнок сидел спокойно и сам просился ещё.</blockquote>
+        <figcaption>Бакыт, папа</figcaption>
+      </figure>
+      <figure class="review">
+        <blockquote>Опасное бритьё — отдельное удовольствие. Горячее полотенце, спокойная музыка, никакой спешки.</blockquote>
+        <figcaption>Руслан</figcaption>
+      </figure>
+      <div class="review__nav">
+        <button id="prev" aria-label="Предыдущий отзыв">←</button>
+        <span id="review-count">1 / 3</span>
+        <button id="next" aria-label="Следующий отзыв">→</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section class="section" id="booking">
+  <div class="wrap booking">
+    <div class="booking__text">
+      <h2>Запись</h2>
+      <p>Оставьте имя и удобное время — мы подтвердим запись сообщением. Демо-форма никуда не отправляет данные, но показывает, как всё будет работать.</p>
+    </div>
+    <form class="form" id="form" novalidate>
+      <label>Имя
+        <input type="text" name="name" id="f-name" placeholder="Как к вам обращаться" required>
+        <small class="err" id="e-name"></small>
+      </label>
+      <label>Телефон
+        <input type="tel" name="phone" id="f-phone" placeholder="+996 ___ ___ ___" required>
+        <small class="err" id="e-phone"></small>
+      </label>
+      <label>Услуга
+        <select name="service" id="f-service">
+          <option>Классическая стрижка</option>
+          <option>Fade и андеркат</option>
+          <option>Борода</option>
+          <option>Опасное бритьё</option>
+          <option>Отец и сын</option>
+          <option>Комплекс «Форрест»</option>
+        </select>
+      </label>
+      <div class="form__row">
+        <label>Дата
+          <input type="date" name="date" id="f-date" required>
+          <small class="err" id="e-date"></small>
+        </label>
+        <label>Время
+          <select name="time" id="f-time"></select>
+        </label>
+      </div>
+      <button type="submit" class="btn btn--full">Отправить заявку</button>
+      <p class="form__ok" id="form-ok" role="status" hidden></p>
+    </form>
+  </div>
+</section>
+
+<!-- CONTACTS -->
+<section class="section section--sand" id="contacts">
+  <div class="wrap contacts">
+    <div>
+      <h2>Как нас найти</h2>
+      <ul class="clist">
+        <li><span>Адрес</span>г. Бишкек, ул. Примерная, 1 (заменить на реальный)</li>
+        <li><span>Телефон</span><a href="tel:+996000000000">+996 000 000 000</a></li>
+        <li><span>Часы работы</span>Каждый день, 10:00–21:00</li>
+        <li><span>Instagram</span>
+          <a href="https://www.instagram.com/forrest_gump_barbershop" target="_blank" rel="noopener">@forrest_gump_barbershop</a>
+        </li>
+      </ul>
+    </div>
+    <div class="map" role="img" aria-label="Место для карты">
+      <p>Здесь будет карта<br><small>вставьте iframe Google Maps или 2ГИС</small></p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__in">
+    <p>© <span id="year">2026</span> Forrest Gump Barbershop. Демо-сайт.</p>
+    <a href="#top">Наверх</a>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <div class="lightbox__box">
+    <p id="lightbox-title"></p>
+    <button id="lightbox-close" aria-label="Закрыть">Закрыть</button>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
